@@ -1,0 +1,14 @@
+{
+  "name": "atom-flow-local",
+  "owner": {
+    "name": "happyhsryu"
+  },
+  "plugins": [
+    {
+      "name": "atom-flow",
+      "source": "./",
+      "description": "워크플로우 자동화 에이전트 하네스 — brainstorming과 커밋 직전 두 게이트만 두고 spec→plan→exec→report를 자동으로 흘린다",
+      "version": "0.1.0"
+    }
+  ]
+}
