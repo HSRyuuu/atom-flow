@@ -6,7 +6,7 @@ set -eu
 
 CWD="${CLAUDE_PROJECT_DIR:-$PWD}"
 PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "$0")/.." && pwd)}"
-GUIDE="${PLUGIN_ROOT}/shared-skills/using-atom-flow/SKILL.md"
+GUIDE="${PLUGIN_ROOT}/skills/using-atom-flow/SKILL.md"
 
 # Skip injection if .atom-flow/ does not exist
 if [ ! -d "${CWD}/.atom-flow" ]; then

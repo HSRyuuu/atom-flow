@@ -2,7 +2,6 @@
   "name": "atom-flow",
   "version": "0.1.0",
   "description": "Workflow-automation-first agent harness with brainstorming gate and commit gate.",
-  "skills": ["./skills/", "./shared-skills/"],
   "hooks": {
     "SessionStart": [
       {

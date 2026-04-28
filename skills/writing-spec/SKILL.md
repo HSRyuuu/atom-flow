@@ -42,7 +42,6 @@ brainstorming이 사용자와 합의한 의도·요구·design을 spec 문서로
 
 ## 자유 호출
 
-- `shared-skills/writing-clearly-and-concisely`를 단발로 호출해 prose 품질을 높여도 된다.
 - 추가 정보 수집을 위해 다른 스킬을 호출해도 된다.
 
 ## Terminal state

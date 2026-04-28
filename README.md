@@ -39,9 +39,7 @@ cd ~/dev/personal && git clone <repo-url> atom-flow
     └── handoff/{date}-{feature}-handoff.md  # 명시 export 시에만, feature별 누적
 ```
 
-## 스킬
-
-### 워크플로우 핵심 (`skills/`)
+## 스킬 (`skills/`)
 
 | 스킬 | 역할 |
 |---|---|
@@ -53,13 +51,6 @@ cd ~/dev/personal && git clone <repo-url> atom-flow
 | `writing-report` | exec 완료 후 살아있는 구현 문서 초기 작성 |
 | `updating-report` | 검토 루프·커밋 직전 report in-place 갱신 |
 | `handoff` | 명시 export 시 대화 맥락 + 산출물 인덱스 저장 |
-| `copy-feature` | 외부 기능·아이디어 이식 가능성 판정 및 추출 |
-
-### 보조 (`shared-skills/`)
-
-| 스킬 | 역할 |
-|---|---|
-| `writing-clearly-and-concisely` | Strunk 글쓰기 원칙. spec/plan/report 작성 시 단발 호출 가능 |
 | `using-atom-flow` | SessionStart hook이 주입하는 워크플로우 진입 가이드 |
 
 ## Hook
